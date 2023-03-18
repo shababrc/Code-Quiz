@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+    background: white;
+ }
+
+
+ #welcome-page{
+  text-align: center;
+  font-size:xx-large;
+ } 
+
+ #welcome-message{
+   text-align: center;
+ }
+
+ #question-div{
+   text-align: center;
+ }
+
+ #choices{
+   text-align: center;
+   justify-content: center;
+ }
+
+ #timer{
+   display:flex;
+   margin: auto;
+   text-align: right;
+   justify-content: right;
+ }
+
+ #start-button {
+    display:flex;
+    margin:auto;
+    background-color:darkgreen;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #choices {
+   padding: 14px 40px;
+
+  }
+  
+  li {
+    list-style-type: none;
+  }
+ 
+

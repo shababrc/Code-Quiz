@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JavaScript Quiz</title>
+   <link rel="stylesheet" href="./style.css">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+    <div id = "welcome-page"> 
+      JavaScript Quiz! </div>
+      <div id = "welcome-message"> Answer as many questions as you can before the timer runs out!
+        <p>Try to answer the following code related questions within the limit. Keep in mind that the incorrect answers will penalize your score/time by 10 seconds.
+          </p>
+    </div>
+    <input id="view-scores" type="button" value="View Scores">
+    <span id="timer"> </span>
+    <div id="scores-div"></div>
+    <br>
+    <div id="question-div"></div>
+    <br>
+    <div id="choices"></div>
+    <br>
+    <form id="results"></form>
+    <div id="buttons">
+      <input id="start-button" type="button" value="Start Quiz">
+    </div>
+    <script src="assets/questions.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
