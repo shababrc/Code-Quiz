@@ -1,12 +1,12 @@
 # User Story
-
+```md
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-
+```
 
 # Acceptance Criteria
-
+```md
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -18,7 +18,7 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
-
+```
 
 ## 📝 Notes
 
@@ -27,7 +27,7 @@ Thesis/Motivation:
     Our motivation was to create a quiz application for the user to answer Javascript questions, and while this quiz is running we want to have a timer going. The user will traverse this multiple choice quiz, and correct answers increase score, while incorrect answers take time off 
     the clock. Then, the user can input initials and record their score!
 
-How we accomplished this:
+## How we accomplished this:   
         Pseudocode for Quiz App
 
         1. Create Welcome Page
@@ -69,7 +69,7 @@ How we accomplished this:
 
 
 
-Completed Application Screenshots!
+## Completed Application Screenshots!
 
 Welcome page:
 
@@ -95,5 +95,12 @@ https://github.com/shababrc/Code-Quiz
 
 # Link to deployed page:
 https://shababrc.github.io/Code-Quiz/
+
+
+## Credits
+Credits to the rest of the ucla bootcamp class for help on this assignment. Credit to Bryan and Shawn from the teaching staff. Also major credit to developer Adena McGibbon, Github: AdenasGittinIt, for her code repository that I implemented for my direction.
+
+## License
+MIT
 
 
