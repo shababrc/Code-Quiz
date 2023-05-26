@@ -1,20 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const Timer = ({ time, onTimeExpired }) => {
-  const [seconds, setSeconds] = useState(time);
+function Timer({ isQuizOver }) {
+  const [time, setTime] = useState(60);
 
   useEffect(() => {
-    if (seconds > 0) {
-      const timer = setTimeout(() => {
-        setSeconds(seconds - 1);
-      }, 1000);
-      return () => clearTimeout(timer);
-    } else {
-      onTimeExpired();
-    }
-  }, [seconds, onTimeExpired]);
+    let timer = null;
 
-  return <div className="timer">Time Left: {seconds} seconds</div>;
-};
+    if (!isQuizOver && time > 0) {
+      timer = setInterval(() => {
+        setTime((prevTime) => prevTime - 1);
+      }, 1000);
+    }
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, [isQuizOver, time]);
+
+  return (
+    <div className="timer">
+      <p>Time: {time}</p>
+    </div>
+  );
+}
 
 export default Timer;
+
+

@@ -1,3 +1,4 @@
+
 const questions = [
     {
       title: "An array’s length can be evaluated with what property?",
@@ -10,7 +11,7 @@ const questions = [
       answer: "exit the loop immediately"
     },
     {
-      title: "Properties in a JavaScript object are often referred to as what?",
+      title: "Properties in a JavaScript oject are often referred to as what?",
       multiChoice: ["dot partners", "key-value pairs", "nested properties", "undefined"],
       answer: "key-value pairs"
     },
@@ -25,6 +26,3 @@ const questions = [
       answer: "a function that is passed into another function as an argument"
     }
   ];
-  
-  export default questions;
-  
